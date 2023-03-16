@@ -297,7 +297,10 @@ class Jobs extends Component {
                     id={eachType.employmentTypeId}
                     onChange={this.onGetInputOption}
                   />
-                  <label htmlFor={eachType.employmentTypeId}>
+                  <label
+                    htmlFor={eachType.employmentTypeId}
+                    className="label-type-emp"
+                  >
                     {eachType.label}
                   </label>
                 </li>
@@ -316,7 +319,10 @@ class Jobs extends Component {
                     name="salary"
                     onChange={this.onSalarySelection}
                   />
-                  <label htmlFor={eachList.salaryRangeId}>
+                  <label
+                    htmlFor={eachList.salaryRangeId}
+                    className="label-radio-salary"
+                  >
                     {eachList.label}
                   </label>
                 </li>
