@@ -93,10 +93,10 @@
 
 @media screen and (max-width: 767px) {
   .job-item-container {
-    width: 100%;
+    width: 95%;
   }
 
   .title-heading {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
